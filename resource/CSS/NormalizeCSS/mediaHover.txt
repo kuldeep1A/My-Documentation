@@ -1,0 +1,2 @@
+The `@media(hover: hover)` rule is a CSS media query that targets devices or user agents that support hover interactions.
+It is used to apply specific styles or rules when the user hovers over an element with a pointing device, such as a mouse.
