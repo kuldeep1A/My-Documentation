@@ -1,0 +1,7 @@
+In this version, we still have the same functionality to toggle the "open-menu" class on both ".hamburger_container"
+and ".mobilemenu_container" elements. The only change is that we're using document.querySelector() and
+document.querySelectorAll() instead of jQuery to select elements. Remember that document.querySelectorAll() returns a
+NodeList, not an array, so we use the spread operator [...] to convert it to an array. Then, we iterate over each element
+using forEach() and toggle the "open-menu" class using classList.toggle() as before. This version is entirely based on
+native JavaScript methods and doesn't rely on jQuery. It's a good alternative if you prefer using native methods over a
+library like jQuery.
