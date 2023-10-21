@@ -6,3 +6,5 @@ main2/
 main3/
 resource1/
 resource2/
+.env
+node_modules/
